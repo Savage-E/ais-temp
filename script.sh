@@ -1,5 +1,5 @@
 #!/bin/bash
-# testing variables
-grade=5
-person="Adam"
-echo "$person is a good boy, he is in grade $grade"
+var1=$(( 5 + 5 ))
+echo $var1
+var2=$(( $var1 * 2 ))
+echo $var2
